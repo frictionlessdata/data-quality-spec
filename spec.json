@@ -3,25 +3,25 @@
     "0": {
       "name": "Unknown Format",
       "message": "The data source is in an unknown format; no tabular data can be extracted",
-      "weight": 5,
+      "weight": 10,
       "description": ""
     },
     "1": {
       "name": "Unknown Encoding",
       "message": "The data source could not be successfully decoded with {encoding} encoding",
-      "weight": 5,
+      "weight": 10,
       "description": ""
     },
     "2": {
       "name": "HTTP Error",
       "message": "The data source returned an HTTP error with a status code of {status_code}",
-      "weight": 5,
+      "weight": 10,
       "description": ""
     },
     "3": {
       "name": "IO Error",
       "message": "The data source returned an IO Error of type {error_name}",
-      "weight": 5,
+      "weight": 10,
       "description": ""
     }
   },
@@ -29,19 +29,19 @@
     "0": {
       "name": "Blank Header",
       "message": "Header column number {column_number} is blank",
-      "weight": 5,
+      "weight": 3,
       "description": ""
     },
     "1": {
       "name": "Duplicate Header",
       "message": "Header column number {column_number} is duplicated",
-      "weight": 5,
+      "weight": 3,
       "description": ""
     },
     "2": {
       "name": "Ragged Row",
       "message": "The row has {direction} cells than column headers",
-      "weight": 5,
+      "weight": 9,
       "description": ""
     },
     "3": {
@@ -53,7 +53,7 @@
     "4": {
       "name": "Blank Row",
       "message": "Row number {row_number} is completely blank",
-      "weight": 5,
+      "weight": 9,
       "description": ""
     }
   },
@@ -61,13 +61,13 @@
     "0": {
       "name": "Missing Headers",
       "message": "One or more column headers is missing: {headers}",
-      "weight": 5,
+      "weight": 9,
       "description": ""
     },
     "1": {
       "name": "Non-Matching Headers",
       "message": "The given headers do not match the schema: {schema_headers} vs. {given_headers}",
-      "weight": 5,
+      "weight": 9,
       "description": ""
     },
     "2": {
@@ -79,61 +79,61 @@
     "3": {
       "name": "Type Violation",
       "message": "The value {value} in column {column} is not a valid {type}",
-      "weight": 5,
+      "weight": 9,
       "description": ""
     },
     "4": {
       "name": "Format Violation",
       "message": "The value {value} in column {column} is not a valid {format}",
-      "weight": 5,
+      "weight": 7,
       "description": ""
     },
     "5": {
       "name": "Required Constraint",
       "message": "Column {column} is a required field, but row {row} has no value",
-      "weight": 5,
+      "weight": 9,
       "description": ""
     },
     "6": {
       "name": "Unique Constraint",
       "message": "Column {column} is a unique field, yet the value {value} found in row {row} has already been seen",
-      "weight": 5,
+      "weight": 9,
       "description": ""
     },
     "7": {
       "name": "Minimum Length Constraint",
       "message": "The value {value} in column {column} does not conform to the minimum length constraint of {constraint}",
-      "weight": 5,
+      "weight": 7,
       "description": ""
     },
     "8": {
       "name": "Maximum Length Constraint",
       "message": "The value {value} in column {column} does not conform to the maximum length constraint of {constraint}",
-      "weight": 5,
+      "weight": 7,
       "description": ""
     },
     "9": {
       "name": "Pattern Constraint",
       "message": "The value {value} in column {column} does not conform to the pattern constraint of {constraint}",
-      "weight": 5,
+      "weight": 7,
       "description": ""
     },
     "10": {
       "name": "Minimum Value Constraint",
       "message": "The value {value} in column {column} does not conform to the minimum value constraint of {constraint}",
-      "weight": 5,
+      "weight": 7,
       "description": ""
     },
     "11": {
       "name": "Maximum Value Constraint",
       "message": "The value {value} in column {column} does not conform to the maximum value constraint of {constraint}",
-      "weight": 5,
+      "weight": 7,
       "description": ""
     },
     "12": {
       "name": "Enumerable Value Constraint",
       "message": "The value {value} in column {column} does not conform to the given enumeration: {constraint}",
-      "weight": 5,
+      "weight": 7,
       "description": ""
     }
   }
