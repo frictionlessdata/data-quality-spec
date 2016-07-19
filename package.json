@@ -1,7 +1,7 @@
 {
-  "name": "jsontableschema",
+  "name": "data-quality-spec",
   "version": "0.1.0",
-  "description": "A utility library for working with JSON Table Schema in Javascript.",
+  "description": "A spec for reporting errors in data quality.",
   "keywords": [
     "data package",
     "json table schema",
@@ -9,14 +9,14 @@
     "open data",
     "open knowledge"
   ],
-  "main": "lib/index.js",
+  "main": "scripts/index.js",
   "dependencies": {
     "bluebird": "*",
     "tv4": "*"
   },
   "scripts": {
-    "review": "eslint scripts/**",
-    "fix": "eslint --fix scripts/**",
+    "review": "eslint scripts/**.js",
+    "fix": "eslint --fix scripts/**.js",
     "test": "node scripts/index.js"
   },
   "author": {
@@ -37,5 +37,12 @@
     "type": "git",
     "url": "https://github.com/frictionlessdata/data-quality-spec.git"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "2.9.0",
+    "eslint-config-airbnb": "9.0.1",
+    "eslint-plugin-import": "1.11.0",
+    "eslint-plugin-jsx-a11y": "1.2.0",
+    "eslint-plugin-react": "5.2.2"
+  }
 }

@@ -40,3 +40,5 @@ rules:
     - 1
   no-param-reassign:
     - 1
+  no-console:
+    - 0
