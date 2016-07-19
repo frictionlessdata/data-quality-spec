@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Data Quality Spec",
+  "description": "A simple spec that describes data quality errors common to tabular data files.",
+  "type": "object",
+  "properties": {
+    "format": {
+      "type": "object",
+      "minItems": 1
+    },
+    "structure": {
+      "type": "object",
+      "minItems": 1
+    },
+    "schema": {
+      "type": "object",
+      "minItems": 1
+    }
+  },
+  "required": [ "format", "structure", "schema" ]
+}
