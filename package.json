@@ -1,0 +1,41 @@
+{
+  "name": "jsontableschema",
+  "version": "0.1.0",
+  "description": "A utility library for working with JSON Table Schema in Javascript.",
+  "keywords": [
+    "data package",
+    "json table schema",
+    "frictionless data",
+    "open data",
+    "open knowledge"
+  ],
+  "main": "lib/index.js",
+  "dependencies": {
+    "bluebird": "*",
+    "tv4": "*"
+  },
+  "scripts": {
+    "review": "eslint scripts/**",
+    "fix": "eslint --fix scripts/**",
+    "test": "node scripts/index.js"
+  },
+  "author": {
+    "name": "Open Knowledge",
+    "email": "info@okfn.org",
+    "url": "https://okfn.org/"
+  },
+  "contributors": [
+    {
+      "name": "Paul Walsh",
+      "email": "paulywalsh@gmail.com",
+      "url": "http://pwalsh.me/"
+    }
+  ],
+  "homepage": "https://github.com/frictionlessdata/data-quality-spec",
+  "bugs": "https://github.com/frictionlessdata/data-quality-spec/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/frictionlessdata/data-quality-spec.git"
+  },
+  "license": "MIT"
+}
