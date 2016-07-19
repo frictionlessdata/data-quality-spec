@@ -1,5 +1,7 @@
 # Data Quality Spec
 
+[![Build Status](https://travis-ci.org/frictionlessdata/data-quality-spec.svg?branch=master)](https://travis-ci.org/frictionlessdata/data-quality-spec)
+
 A simple spec that describes data quality errors common to tabular data files.
 
 # Why?
