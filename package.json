@@ -1,0 +1,48 @@
+{
+  "name": "data-quality-spec",
+  "version": "0.1.0",
+  "description": "A spec for reporting errors in data quality.",
+  "keywords": [
+    "data package",
+    "json table schema",
+    "frictionless data",
+    "open data",
+    "open knowledge"
+  ],
+  "main": "scripts/index.js",
+  "dependencies": {
+    "bluebird": "*",
+    "tv4": "*"
+  },
+  "scripts": {
+    "review": "eslint scripts/**.js",
+    "fix": "eslint --fix scripts/**.js",
+    "test": "node scripts/index.js"
+  },
+  "author": {
+    "name": "Open Knowledge",
+    "email": "info@okfn.org",
+    "url": "https://okfn.org/"
+  },
+  "contributors": [
+    {
+      "name": "Paul Walsh",
+      "email": "paulywalsh@gmail.com",
+      "url": "http://pwalsh.me/"
+    }
+  ],
+  "homepage": "https://github.com/frictionlessdata/data-quality-spec",
+  "bugs": "https://github.com/frictionlessdata/data-quality-spec/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/frictionlessdata/data-quality-spec.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "2.9.0",
+    "eslint-config-airbnb": "9.0.1",
+    "eslint-plugin-import": "1.11.0",
+    "eslint-plugin-jsx-a11y": "1.2.0",
+    "eslint-plugin-react": "5.2.2"
+  }
+}
