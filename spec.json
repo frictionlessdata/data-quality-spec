@@ -3,25 +3,25 @@
     "0": {
       "name": "Unknown Format",
       "message": "The data source is in an unknown format; no tabular data can be extracted",
-      "weight": 10,
+      "weight": 100,
       "description": ""
     },
     "1": {
       "name": "Unknown Encoding",
       "message": "The data source could not be successfully decoded with {encoding} encoding",
-      "weight": 10,
+      "weight": 100,
       "description": ""
     },
     "2": {
       "name": "HTTP Error",
       "message": "The data source returned an HTTP error with a status code of {status_code}",
-      "weight": 10,
+      "weight": 100,
       "description": ""
     },
     "3": {
       "name": "IO Error",
       "message": "The data source returned an IO Error of type {error_name}",
-      "weight": 10,
+      "weight": 100,
       "description": ""
     }
   },
