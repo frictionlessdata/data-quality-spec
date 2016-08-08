@@ -22,7 +22,7 @@ Inside each category, errors are keyed by ascending numbers (as strings), where 
 
 - *name*: The name of the error. Should be unique across the whole spec file.
 - *message*: The message that explains the error. Contains variables for replacement (via native string formatting markup in Python, and using `.replace` in JavaScript).
-- *weight*: A weighting on a scale of 1-10 of the severity of the error.
+- *weight*: A weighting on a scale of 1-100 of the severity of the error.
 - *description*: A longer description of the error, designed to help non-technical users understand the error and take steps to resolve the error. Markdown is encouraged.
 
 Take a look for yourself at [`spec.json`](./spec.json).
