@@ -3,49 +3,49 @@
     "errors": [
         {
           "code": "io-error",
-          "type": "general",
+          "type": "source",
           "context": "any",
           "description": ""
         },
         {
           "code": "http-error",
-          "type": "general",
+          "type": "source",
           "context": "any",
           "description": ""
         },
         {
           "code": "datapackage-error",
-          "type": "general",
+          "type": "source",
           "context": "dataset",
           "description": ""
         },
         {
           "code": "jsontableschema-error",
-          "type": "general",
+          "type": "source",
           "context": "dataset",
           "description": ""
         },
         {
           "code": "source-error",
-          "type": "general",
+          "type": "source",
           "context": "table",
           "description": ""
         },
         {
           "code": "scheme-error",
-          "type": "general",
+          "type": "source",
           "context": "table",
           "description": ""
         },
         {
           "code": "format-error",
-          "type": "general",
+          "type": "source",
           "context": "table",
           "description": ""
         },
         {
           "code": "encoding-error",
-          "type": "general",
+          "type": "source",
           "context": "table",
           "description": ""
         },
