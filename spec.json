@@ -204,7 +204,6 @@
           "type": "schema",
           "context": "body",
           "weight": 7,
-          "message": "",
           "message": "The value {value} in row {row_number} and column {column_number} does not conform to the minimum length constraint of {constraint}",
           "description": ""
         },
