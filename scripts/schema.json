@@ -8,12 +8,10 @@
       "type": "string"
     },
     "errors": {
-      "type": "array",
-      "items": {
+      "type": "object",
+      "properties": {
+        "type": "object",
         "properties": {
-          "code": {
-            "type": "string"
-          },
           "type": {
             "type": "string"
           },
@@ -23,14 +21,13 @@
           "description": {
             "type": "string"
           }
-        }
-      },
-      "required": [
-        "code",
-        "type",
-        "context",
-        "description"
-      ]
+        },
+        "required": [
+          "type",
+          "context",
+          "description"
+        ]
+      }
     }
   },
   "required": [ "version", "errors" ]

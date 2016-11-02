@@ -1,161 +1,143 @@
 {
     "version": "1.0.0-alpha1",
-    "errors": [
-        {
-          "code": "io-error",
+    "errors": {
+
+
+        "io-error": {
           "type": "source",
           "context": "any",
           "description": ""
         },
-        {
-          "code": "http-error",
+        "http-error": {
           "type": "source",
           "context": "any",
           "description": ""
         },
-        {
-          "code": "datapackage-error",
+        "datapackage-error": {
           "type": "source",
           "context": "dataset",
           "description": ""
         },
-        {
-          "code": "jsontableschema-error",
+        "jsontableschema-error": {
           "type": "source",
           "context": "dataset",
           "description": ""
         },
-        {
-          "code": "source-error",
+        "source-error": {
           "type": "source",
           "context": "table",
           "description": ""
         },
-        {
-          "code": "scheme-error",
+        "scheme-error": {
           "type": "source",
           "context": "table",
           "description": ""
         },
-        {
-          "code": "format-error",
+        "format-error": {
           "type": "source",
           "context": "table",
           "description": ""
         },
-        {
-          "code": "encoding-error",
+        "encoding-error": {
           "type": "source",
           "context": "table",
           "description": ""
         },
-        {
-          "code": "blank-header",
+
+
+        "blank-header": {
           "type": "structure",
           "context": "head",
           "description": ""
         },
-        {
-          "code": "duplicate-header",
+        "duplicate-header": {
           "type": "structure",
           "context": "head",
           "description": ""
         },
-        {
-          "code": "non-matching-header",
+        "blank-row": {
+          "type": "structure",
+          "context": "body",
+          "description": ""
+        },
+        "duplicate-row": {
+          "type": "structure",
+          "context": "body",
+          "description": ""
+        },
+        "extra-value": {
+          "type": "structure",
+          "context": "body",
+          "description": ""
+        },
+        "missing-value": {
+          "type": "structure",
+          "context": "body",
+          "description": ""
+        },
+
+
+        "non-matching-header": {
           "type": "schema",
           "context": "head",
           "description": ""
         },
-        {
-          "code": "extra-header",
+        "extra-header": {
           "type": "schema",
           "context": "head",
           "description": ""
         },
-        {
-          "code": "missing-header",
+        "missing-header": {
           "type": "schema",
           "context": "head",
           "description": ""
         },
-        {
-          "code": "blank-row",
-          "type": "structure",
-          "context": "body",
-          "description": ""
-        },
-        {
-          "code": "duplicate-row",
-          "type": "structure",
-          "context": "body",
-          "description": ""
-        },
-        {
-          "code": "extra-value",
-          "type": "structure",
-          "context": "body",
-          "description": ""
-        },
-        {
-          "code": "missing-value",
-          "type": "structure",
-          "context": "body",
-          "description": ""
-        },
-        {
-          "code": "required-constraint",
+        "required-constraint": {
           "type": "schema",
           "context": "body",
           "description": ""
         },
-        {
-          "code": "pattern-constraint",
+        "pattern-constraint": {
           "type": "schema",
           "context": "body",
           "description": ""
         },
-        {
-          "code": "non-castable-value",
+        "non-castable-value": {
           "type": "schema",
           "context": "body",
           "description": ""
         },
-        {
-          "code": "unique-constraint",
+        "unique-constraint": {
           "type": "schema",
           "context": "body",
           "description": ""
         },
-        {
-          "code": "enumerable-constraint",
+        "enumerable-constraint": {
           "type": "schema",
           "context": "body",
           "description": ""
         },
-        {
-          "code": "minimum-constraint",
+        "minimum-constraint": {
           "type": "schema",
           "context": "body",
           "description": ""
         },
-        {
-          "code": "maximum-constraint",
+        "maximum-constraint": {
           "type": "schema",
           "context": "body",
           "description": ""
         },
-        {
-          "code": "minimum-length-constraint",
+        "minimum-length-constraint": {
           "type": "schema",
           "context": "body",
           "description": ""
         },
-        {
-          "code": "maximum-length-constraint",
+        "maximum-length-constraint": {
           "type": "schema",
           "context": "body",
           "description": ""
         }
-    ]
+
+
+    }
 }
