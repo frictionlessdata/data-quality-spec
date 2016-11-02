@@ -4,18 +4,43 @@
   "description": "A simple spec that describes data quality errors common to tabular data files.",
   "type": "object",
   "properties": {
-    "format": {
-      "type": "object",
-      "minItems": 1
+    "version": {
+      "type": "string"
     },
-    "structure": {
+    "errors": {
       "type": "object",
-      "minItems": 1
-    },
-    "schema": {
-      "type": "object",
-      "minItems": 1
+      "properties": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "type": {
+            "type": "string"
+          },
+          "context": {
+            "type": "string"
+          },
+          "weight": {
+            "type": "integer"
+          },
+          "message": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "name",
+          "type",
+          "context",
+          "weight",
+          "message",
+          "description"
+        ]
+      }
     }
   },
-  "required": [ "format", "structure", "schema" ]
+  "required": [ "version", "errors" ]
 }
