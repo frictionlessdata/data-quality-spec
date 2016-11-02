@@ -16,13 +16,14 @@ The spec herein extracts the errors detected by GoodTables from the codebase, ti
 
 # What
 
-`spec.json` contains a set of nested objects, with each top-level property being a broad category of errors found when working with tabular data: `format`, `structure` and `schema`.
+`spec.json` has `errors` object contains errors are keyed by error code (as strings), where each error has the following properties:
 
-Inside each category, errors are keyed by ascending numbers (as strings), where each error has the following properties:
-
-- *name*: The name of the error. Should be unique across the whole spec file.
-- *message*: The message that explains the error. Contains variables for replacement (via native string formatting markup in Python, and using `.replace` in JavaScript).
-- *weight*: A weighting on a scale of 1-100 of the severity of the error.
-- *description*: A longer description of the error, designed to help non-technical users understand the error and take steps to resolve the error. Markdown is encouraged.
+- **name** - The name of the error. Should be unique across the whole spec file.
+- **type** - A broad category of error found when working with tabular data: source, structure and schema.
+- **context** - An error location in the dataset. For example `head` (error in headers) or
+`body` (error in contents).
+- **weight** - A weighting on a scale of 1-100 of the severity of the error.
+- **message** - The message that explains the error. Contains variables for replacement (via native string formatting markup in Python, and using `.replace` in JavaScript).
+- **description** - A longer description of the error, designed to help non-technical users understand the error and take steps to resolve the error. Markdown is encouraged.
 
 Take a look for yourself at [`spec.json`](./spec.json).
