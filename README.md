@@ -16,7 +16,7 @@ The spec herein extracts the errors detected by GoodTables from the codebase, ti
 
 # What
 
-`spec.json` has `errors` object contains errors are keyed by error code (as strings), where each error has the following properties:
+`spec.json` has `errors` object contains errors are keyed by **code** (as string), where each error has the following properties:
 
 - **name** - The name of the error. Should be unique across the whole spec file.
 - **type** - A broad category of error found when working with tabular data: source, structure and schema.
