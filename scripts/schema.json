@@ -18,6 +18,9 @@
           "context": {
             "type": "string"
           },
+          "weight": {
+            "type": "integer"
+          },
           "description": {
             "type": "string"
           }
@@ -25,6 +28,7 @@
         "required": [
           "type",
           "context",
+          "weight",
           "description"
         ]
       }

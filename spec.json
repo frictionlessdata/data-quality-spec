@@ -6,41 +6,49 @@
         "io-error": {
           "type": "source",
           "context": "any",
+          "weight": 100,
           "description": ""
         },
         "http-error": {
           "type": "source",
           "context": "any",
+          "weight": 100,
           "description": ""
         },
         "datapackage-error": {
           "type": "source",
           "context": "dataset",
+          "weight": 100,
           "description": ""
         },
         "jsontableschema-error": {
           "type": "source",
           "context": "dataset",
+          "weight": 100,
           "description": ""
         },
         "source-error": {
           "type": "source",
           "context": "table",
+          "weight": 100,
           "description": ""
         },
         "scheme-error": {
           "type": "source",
           "context": "table",
+          "weight": 100,
           "description": ""
         },
         "format-error": {
           "type": "source",
           "context": "table",
+          "weight": 100,
           "description": ""
         },
         "encoding-error": {
           "type": "source",
           "context": "table",
+          "weight": 100,
           "description": ""
         },
 
@@ -48,31 +56,37 @@
         "blank-header": {
           "type": "structure",
           "context": "head",
+          "weight": 3,
           "description": ""
         },
         "duplicate-header": {
           "type": "structure",
           "context": "head",
+          "weight": 3,
           "description": ""
         },
         "blank-row": {
           "type": "structure",
           "context": "body",
+          "weight": 9,
           "description": ""
         },
         "duplicate-row": {
           "type": "structure",
           "context": "body",
+          "weight": 5,
           "description": ""
         },
         "extra-value": {
           "type": "structure",
           "context": "body",
+          "weight": 9,
           "description": ""
         },
         "missing-value": {
           "type": "structure",
           "context": "body",
+          "weight": 9,
           "description": ""
         },
 
@@ -80,61 +94,73 @@
         "non-matching-header": {
           "type": "schema",
           "context": "head",
+          "weight": 9,
           "description": ""
         },
         "extra-header": {
           "type": "schema",
           "context": "head",
+          "weight": 9,
           "description": ""
         },
         "missing-header": {
           "type": "schema",
           "context": "head",
+          "weight": 9,
           "description": ""
         },
         "required-constraint": {
           "type": "schema",
           "context": "body",
+          "weight": 9,
           "description": ""
         },
         "pattern-constraint": {
           "type": "schema",
           "context": "body",
+          "weight": 7,
           "description": ""
         },
         "non-castable-value": {
           "type": "schema",
           "context": "body",
+          "weight": 9,
           "description": ""
         },
         "unique-constraint": {
           "type": "schema",
           "context": "body",
+          "weight": 9,
           "description": ""
         },
         "enumerable-constraint": {
           "type": "schema",
           "context": "body",
+          "weight": 7,
           "description": ""
         },
         "minimum-constraint": {
           "type": "schema",
           "context": "body",
+          "weight": 7,
           "description": ""
         },
         "maximum-constraint": {
           "type": "schema",
           "context": "body",
+          "weight": 7,
           "description": ""
         },
         "minimum-length-constraint": {
           "type": "schema",
           "context": "body",
+          "weight": 7,
           "description": ""
         },
         "maximum-length-constraint": {
           "type": "schema",
           "context": "body",
+          "weight": 7,
           "description": ""
         }
 
