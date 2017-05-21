@@ -6,7 +6,7 @@
         "io-error": {
           "name": "IO Error",
           "type": "source",
-          "context": "any",
+          "context": "table",
           "weight": 100,
           "message": "The data source returned an IO Error of type {error_type}",
           "description": ""
@@ -14,25 +14,9 @@
         "http-error": {
           "name": "HTTP Error",
           "type": "source",
-          "context": "any",
+          "context": "table",
           "weight": 100,
           "message": "The data source returned an HTTP error with a status code of {status_code}",
-          "description": ""
-        },
-        "datapackage-error": {
-          "name": "DataPackage Error",
-          "type": "source",
-          "context": "dataset",
-          "weight": 100,
-          "message": "DataPackage error: {error_message}",
-          "description": ""
-        },
-        "jsontableschema-error": {
-          "name": "JSON Table Schema Error",
-          "type": "source",
-          "context": "dataset",
-          "weight": 100,
-          "message": "JSON Table Schema error: {error_message}",
           "description": ""
         },
         "source-error": {
@@ -119,6 +103,14 @@
         },
 
 
+        "schema-error": {
+          "name": "Table Schema Error",
+          "type": "schema",
+          "context": "table",
+          "weight": 100,
+          "message": "Table Schema error: {error_message}",
+          "description": ""
+        },
         "non-matching-header": {
           "name": "Non-Matching Header",
           "type": "schema",
