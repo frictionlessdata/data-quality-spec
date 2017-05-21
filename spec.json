@@ -41,7 +41,7 @@
           "context": "table",
           "weight": 100,
           "message": "The data source is in an unknown format; no tabular data can be extracted",
-          "description": "Data read error because of incorrect format.\n\n How it could be resolved:\n - Fix data format (e.g. change file extension from `txt` to `csv`).\n - Set correct format in {validator}."
+          "description": "Data reading error because of incorrect format.\n\n How it could be resolved:\n - Fix data format (e.g. change file extension from `txt` to `csv`).\n - Set correct format in {validator}."
         },
         "encoding-error": {
           "name": "Encoding Error",
