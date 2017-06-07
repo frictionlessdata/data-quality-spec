@@ -173,7 +173,7 @@
           "context": "body",
           "weight": 7,
           "message": "The value {value} in row {row_number} and column {column_number} does not conform to the given enumeration: {constraint}",
-          "description": "This field value should be equal to one of the value in the enumeration constraint.\n\n How it could be resolved:\n - If this value is not correct, update the value.\n - If value is correct, then remove or refine the `enum` constraint in the schema.\n - If this error should be ignored disable `enumerable-constraint` check in {validator}."
+          "description": "This field value should be equal to one of the values in the enumeration constraint.\n\n How it could be resolved:\n - If this value is not correct, update the value.\n - If value is correct, then remove or refine the `enum` constraint in the schema.\n - If this error should be ignored disable `enumerable-constraint` check in {validator}."
         },
         "minimum-constraint": {
           "name": "Minimum Constraint",
