@@ -1,44 +1,102 @@
----
 extends:
   airbnb
-environment:
-  es6
+
 env:
+  es6: true
   node: true
+  mocha: true
   browser: true
+
 parserOptions:
   sourceType: module
+
 rules:
   quotes:
-    - 2
+    - error
     - single
     - avoid-escape
   semi:
-    - 2
+    - error
     - never
+  max-len:
+    - error
+    - code: 120
+      ignoreStrings: true
   comma-style:
-    - 2
+    - off
     - first
   comma-dangle:
-    - 2
+    - off
     - never
   no-empty:
-    - 2
+    - error
     - allowEmptyCatch: true
   no-use-before-define:
-    - 2
+    - off
     - nofunc
   one-var:
-    - 1
+    - off
     - var: always
       let: always
       const: always
   eqeqeq:
-    - 1
+    - warn
     - smart
   no-unused-vars:
-    - 1
+    - error
   no-param-reassign:
-    - 1
+    - off
+  no-cond-assign:
+    - error
+    - except-parens
+  arrow-parens:
+    - off
+    - as-needed
+  block-spacing:
+    - off
+  class-methods-use-this:
+    - off
+  object-curly-spacing:
+    - off
+  padded-blocks:
+    - off
+  no-underscore-dangle:
+    - off
+  space-infix-ops:
+    - off
+  no-restricted-syntax:
+    - off
+  no-throw-literal:
+    - off
   no-console:
-    - 0
+    - off
+  operator-assignment:
+    - off
+  one-var-declaration-per-line:
+    - off
+  no-continue:
+    - off
+  no-shadow:
+    - off
+  func-names:
+    - off
+  no-prototype-builtins:
+    - off
+  no-lonely-if:
+    - off
+  no-else-return:
+    - off
+  no-confusing-arrow:
+    - off
+  array-callback-return:
+    - off
+  arrow-body-style:
+    - off
+  space-before-function-paren:
+    - off
+  consistent-return:
+    - off
+  import/prefer-default-export:
+    - off
+  import/newline-after-import:
+    - off
